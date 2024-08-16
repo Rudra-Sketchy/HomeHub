@@ -6,7 +6,7 @@ function Hero() {
       <div className="hero">
         <div className="hero-left">
           <h1 style={{ color: "white" }}>
-            Easy way to get several household services
+            Easy way to get several<br></br> household services
           </h1>
 
           <div className="hero-latest-btn">

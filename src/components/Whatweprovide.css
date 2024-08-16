@@ -1,0 +1,112 @@
+.Whatweprovide{
+    margin:50px;
+}
+.Whatweprovide h1{
+    color: rgb(24, 75, 93);
+}
+.services-upper{
+    padding:50px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    padding-left: 200px;
+    padding-right: 100px;
+}
+.Techsupport{
+    height:140px;
+    width:140px;
+    border-radius: 8px;
+    background-color: rgb(203, 244, 250);
+}
+.Cleaning{
+    height:140px;
+    width:140px;
+    border-radius: 8px;
+    background-color: rgb(203, 244, 250);
+}
+.Landscaping{
+    height:140px;
+    width:140px;
+    border-radius: 8px;
+    background-color: rgb(203, 244, 250);
+}
+.services-lower{
+    padding:20px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    padding-left: 200px;
+    padding-right: 100px;
+}
+.Homeimprovement{
+    height:140px;
+    width:140px;
+    border-radius: 8px;
+    background-color: rgb(203, 244, 250);
+}
+.Maintenanace{
+    height:140px;
+    width:140px;
+    border-radius: 8px;
+    background-color: rgb(203, 244, 250);
+}
+.Moving-storage{
+    height:140px;
+    width:140px;
+    border-radius: 8px;
+    background-color: rgb(203, 244, 250);
+}
+@media screen and (max-width: 920px) {
+    .services-upper{
+        gap:18px;
+        padding:0px;
+        padding-top:25px;
+    }
+    .services-lower{
+        gap:18px;
+        padding:0px;
+        padding-top:25px;
+    }
+}
+@media screen and (max-width: 570px) {
+    .services-upper{
+        p:8px;
+        padding:0px;
+        padding-top:25px;
+        display:inline;
+        margin: 28px;
+    }
+    .services-lower{
+        padding:0px;
+        padding-top:25px;
+        display:inline;
+        margin: 28px;
+    }
+    .Techsupport{
+        margin-bottom: 15px;
+        margin-left: 55px;
+    }
+    .Cleaning{
+        margin-bottom: 15px;
+        margin-left: 55px;
+        
+    }
+    .Landscaping{
+        margin-bottom: 15px;
+        margin-left: 55px;
+    }
+    .Homeimprovement{
+        margin-bottom: 15px;
+        margin-left: 55px;
+    }
+    .Maintenanace{
+        margin-bottom: 15px;
+        margin-left: 55px;
+    }
+    .Moving-storage{
+        margin-bottom: 15px;
+        margin-left: 55px;
+    }
+}
