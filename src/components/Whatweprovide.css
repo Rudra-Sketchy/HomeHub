@@ -72,7 +72,7 @@
 }
 @media screen and (max-width: 570px) {
     .services-upper{
-        p:8px;
+        gap:8px;
         padding:0px;
         padding-top:25px;
         display:inline;
@@ -86,27 +86,27 @@
     }
     .Techsupport{
         margin-bottom: 15px;
-        margin-left: 55px;
+        margin-left: 185px;
     }
     .Cleaning{
         margin-bottom: 15px;
-        margin-left: 55px;
+        margin-left: 185px;
         
     }
     .Landscaping{
         margin-bottom: 15px;
-        margin-left: 55px;
+        margin-left: 185px;
     }
     .Homeimprovement{
         margin-bottom: 15px;
-        margin-left: 55px;
+        margin-left: 185px;
     }
     .Maintenanace{
         margin-bottom: 15px;
-        margin-left: 55px;
+        margin-left: 185px;
     }
     .Moving-storage{
         margin-bottom: 15px;
-        margin-left: 55px;
+        margin-left: 185px;
     }
 }

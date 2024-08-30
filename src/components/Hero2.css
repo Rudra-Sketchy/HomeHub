@@ -16,6 +16,8 @@
   background-color: rgb(146, 207, 242);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
+  width: 580px;
+  margin-top: 3.6px;
 }
 .hero-left h1 {
   width:625px;
@@ -70,5 +72,23 @@
 @media screen and (max-width: 625px) {
   .hero-left h1{
     width:170px;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .hero-right img{
+    width: 420px;
+    position: relative;
+    margin-top:85px;
+  }
+}
+@media screen and (max-width: 850px) {
+  .hero-right{
+    width:350px;
+    
+  }
+  .hero-right img{
+    width: 300px;
+    height:320px;
+    margin-top: 235px;
   }
 }

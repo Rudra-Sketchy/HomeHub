@@ -1,5 +1,6 @@
 import "./Hero2.css";
 import arrow_icon from "../Assets1/arrow.png";
+import hand_remove from "../Assets1/hand-removebg-preview-mirrored.png";
 function Hero() {
   return (
     <>
@@ -16,7 +17,9 @@ function Hero() {
             </div>
           </div>
         </div>
-        <div className="hero-right">hjbdscmnbcdmnb</div>
+        <div className="hero-right">
+          <img src={hand_remove} alt=""/>
+        </div>
       </div>
     </>
   );
